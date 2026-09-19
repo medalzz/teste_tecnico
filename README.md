@@ -53,33 +53,14 @@ incluindo dados do cliente, transportadora e remetente.
 
 ## Criando o ambiente dev
 
-1- Crie uma pasta onde os arquivos do projeto serão colocados
+1- Clonar o projeto
 
-2- Inicialize o git nessa pasta
-```bash
-git init
-```
-
-3- Adicione o link do repositório
-```bash
-git remote add origin https://github.com/medalzzz/teste_tecnico
-```
-
-4- Localize os dados da branch main
-```bash
-git fetch origin
-```
-
-5- Puxe os dados da branch main
-```bash
-git pull origin main
-```
-
-6- Monte o container
+2- Montar o container
 ```bash
 docker-compose up -d
 ```
-7- Projeto agora acessível no link:
+
+3- Acessar o projeto:
 ```bash
 http://localhost:9000
 ```
